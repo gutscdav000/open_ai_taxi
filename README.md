@@ -54,7 +54,7 @@ The first difference between Sarsa and Q learning algorithmically lies in the al
 
 By taking the max value where a<sub>t</sub> ∈ a (i.e. the max value for the next state in the set of all actions) the reward value update that will be applied to the current Q table reward value will be maximized based off of the next state over all actions. 
 
-Next we hit largest fundamental difference between Q learning and sarsa: **Despite the best possible greedy update to the Q table for the current state action pair being made, the algorithm will use a probability to choose whether it will use the greedy maximization provided above, or randomly pick another state for the next action.** This is called off policy learning, and it is the balance between exploiting and exploring the state action space of the current world. 
+Next we hit largest fundamental difference between Q learning and sarsa: **Despite the best possible greedy update to the Q table for the current state action pair being made, the algorithm will use a probability to choose whether it will use the greedy maximization provided above, or randomly pick another state action pair.** This is called off policy learning, and it is the balance between exploiting and exploring the state action space of the current world. 
 
 
 ## Expected Sarsa
