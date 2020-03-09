@@ -70,7 +70,7 @@ Finally the expected Sarsa algorithm uses the expected value of the next state a
 
 **Σ<sub>a</sub>(π(a | S<sub>t+1</sub>)Q(S<sub>t+1</sub>, a)) - Q(S<sub>t</sub>, A<sub>t</sub>)**
 
-in the alternative steap above π represents the policy. π(a | S<sub>t+1</sub>) means for all actiosn of the next state. Expected Sarsa is on policy because it exploits knowledge about stochasticity in the behavior policy to perform updates with lower variance. Whatt does this mean? it uses the  probability shown in the alternative function shown above to more effectively  exploit the state action space and thus decreasing the variance experienced in the outcome. You can see in the Reward by Trial chart for the expected sarsa algorithm that it experiences less variance than the other algorithms.
+in the alternative steap above π represents the policy. π(a | S<sub>t+1</sub>) means for all actions of the next state. Expected Sarsa is on policy because it exploits knowledge about stochasticity in the behavior policy to perform updates with lower variance. What does this mean? it uses the  probability shown in the alternative function shown above to more effectively  exploit the state action space, thus decreasing the variance experienced in the outcome. You can see in the Reward by Trial chart for the expected sarsa algorithm that it experiences less variance than the other algorithms.
 
 
 ## On Policy / Off Policy what's the difference? why does it matter?
