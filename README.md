@@ -25,7 +25,7 @@ The below equation from the pseudocode is the heart of the algorithm. It is used
 
 **Q(S<sub>t</sub>, A<sub>t</sub>) = Q(S<sub>t</sub>, A<sub>t</sub>) + α(R<sub>t+1</sub> + γQ(S<sub>t+1</sub>, A<sub>t+1</sub>)) - Q(S<sub>t</sub>, A<sub>t</sub>))**
 
-we take the difference of the following two parts, and add it to the current rewward value for the current state action pair:
+we take the difference of the following two parts, and add it to the current reward value for the current state action pair:
 1. alternative estimate: α(R<sub>t+1</sub> + γQ(S<sub>t+1</sub>, A<sub>t+1</sub>))
 2. current estimate: Q(S<sub>t</sub>, A<sub>t</sub>))
 
