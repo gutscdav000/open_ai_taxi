@@ -1,5 +1,5 @@
 # open_ai_taxi
-open ai's Taxi-v3 toy problem based on the paper, ["Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition"](https://arxiv.org/pdf/cs/9905014.pdf) by Thomas G. Dietterich. Using hierarchical reinforcement learning to find optimal strategies to pick up a passenger, get them to a location, and drop them off.
+A solution and description to open ai's Taxi-v3 toy problem based on the paper, ["Hierarchical Reinforcement Learning with the MAXQ Value Function Decomposition"](https://arxiv.org/pdf/cs/9905014.pdf) by Thomas G. Dietterich. Using hierarchical reinforcement learning to find optimal strategies to pick up a passenger, get them to a location, and drop them off. I used the Sarsa, Q learning, and Expected Sarsa algorithms to solve the problem.
 
 
 ## Best score results
